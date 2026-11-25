@@ -1,4 +1,4 @@
-# AgroStyle
+﻿# AgroStyle
 
 Aplicación web de comercialización agrícola construida con React + Vite + Supabase. El proyecto implementa los flujos priorizados en los documentos SQA de AgroStyle: autenticación por roles, catálogo, detalle de producto, carrito, pedidos y pago QR simulado.
 
@@ -78,4 +78,4 @@ npm run test:smoke   # solo @smoke
 npm run verify:f3    # verificación estática de la migración F3
 ```
 
-Plan de pruebas: `docs/Test_Plan_SQA_AgroStyle_Web_v1.2.docx` · Evidencias: `evidence/` · Tablero importable: `docs/tablero-qa.csv`.
+Plan de pruebas: `docs/Test_Plan_SQA_AgroStyle_Web_v1.2.pdf` · Evidencias: `evidence/` · Tablero importable: `docs/tablero-qa.csv`.

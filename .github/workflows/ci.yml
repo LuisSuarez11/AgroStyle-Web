@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build
+        run: npm run build
+        env:
+          VITE_SUPABASE_URL: http://127.0.0.1:54321
+          VITE_SUPABASE_ANON_KEY: test-anon-key-no-real
+      - name: Verificación estática F3
+        run: npm run verify:f3
+      - name: Pruebas unitarias (Vitest)
+        run: npm run test:unit
+      - name: Instalar navegador
+        run: npx playwright install --with-deps chromium
+      - name: Pruebas E2E (Playwright, Supabase simulado)
+        run: npm run test:e2e
+      - name: Publicar reporte de Playwright
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+      # Este workflow NO despliega nada y no usa credenciales reales: el backend está simulado.

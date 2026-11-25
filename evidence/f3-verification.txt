@@ -1,0 +1,28 @@
+PASS | migration exists and has commit
+PASS | profiles self-update hardened
+PASS | admin profile RPCs exist
+PASS | order atomic RPC exists
+PASS | order transition trigger exists
+PASS | payment RPC exists
+PASS | producer confirm/reject RPCs exist
+PASS | document review RPC exists
+PASS | storage approved-document protection exists
+PASS | safe farm delete exists
+PASS | safe product delete exists
+PASS | orders service uses RPCs
+PASS | profiles service uses RPCs
+PASS | documents service uses RPC
+PASS | farms service uses safe delete RPC
+PASS | products service uses safe delete RPC
+PASS | cart checkout still works via service
+PASS | QR payment still uses payOrder
+PASS | migration does not modify historical migration.sql
+PASS | buyer/producer direct order update policies removed
+PASS | sensitive RPCs check auth.uid() is null
+PASS | sensitive RPCs use IS DISTINCT FROM for actor comparison
+PASS | sensitive RPCs revoked from public/anon and granted to authenticated
+PASS | enforce_product_write checks producer approved on update/reactivate
+PASS | profiles_self_update has no self-referential subselect
+PASS | policies using is_admin/is_approved_producer are scoped TO authenticated
+PASS | public catalog read policies remain separate/public
+SUMMARY | 27 passed, 0 failed

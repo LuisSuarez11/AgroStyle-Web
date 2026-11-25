@@ -1,0 +1,414 @@
+[WebServer] [plugin builtin:vite-reporter] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+Running 14 tests using 11 workers
+
+  ok  2 [chromium] › tests\e2e\auth.spec.js:40:3 › Autenticación › AUTH-03: usuario sin sesión es redirigido a /login desde rutas protegidas (1.1s)
+  ok  7 [chromium] › tests\e2e\auth.spec.js:25:3 › Autenticación › AUTH-REG-01 @smoke: registro de comprador (detectó BUG-01: toLower) (1.0s)
+  ok  6 [chromium] › tests\e2e\auth.spec.js:7:3 › Autenticación › AUTH-01 @smoke: comprador inicia y cierra sesión (1.3s)
+  ok  5 [chromium] › tests\e2e\auth.spec.js:15:3 › Autenticación › AUTH-01b: credenciales incorrectas muestran un mensaje claro y no inician sesión (1.4s)
+  x   4 [chromium] › tests\e2e\catalog.spec.js:32:3 › Catálogo (CAT-01) › CAT-01c: el filtro por categoría muestra solo esa categoría (7.9s)
+  x   3 [chromium] › tests\e2e\auth.spec.js:57:3 › Autenticación › AUTH-04: productor pendiente de aprobación no accede a sus pantallas (8.0s)
+  x  11 [chromium] › tests\e2e\catalog.spec.js:45:3 › Catálogo (CAT-01) › CAT-01e: ordenar por precio de menor a mayor (8.0s)
+  x  10 [chromium] › tests\e2e\catalog.spec.js:23:3 › Catálogo (CAT-01) › CAT-01b: la búsqueda por texto filtra resultados y se puede limpiar (8.1s)
+  x  12 [chromium] › tests\e2e\catalog.spec.js:54:3 › Carrito (CART-01 / CART-02) › CART-00 @smoke: agregar un producto muestra el carrito con la cantidad (7.7s)
+  x   1 [chromium] › tests\e2e\auth.spec.js:48:3 › Autenticación › AUTH-03b: un comprador no puede entrar a pantallas de productor (8.7s)
+  x   9 [chromium] › tests\e2e\catalog.spec.js:39:3 › Catálogo (CAT-01) › CAT-01d: búsqueda sin coincidencias muestra estado vacío (8.1s)
+  x   8 [chromium] › tests\e2e\catalog.spec.js:17:3 › Catálogo (CAT-01) › CAT-01 @smoke: lista los productos activos (7.9s)
+  x  13 [chromium] › tests\e2e\catalog.spec.js:63:3 › Carrito (CART-01 / CART-02) › CART-01: no permite mezclar productos de dos productores (7.6s)
+  x  14 [chromium] › tests\e2e\catalog.spec.js:76:3 › Carrito (CART-01 / CART-02) › CART-02: el carrito se conserva al recargar la página (corrige BUG-02) (7.5s)
+
+
+  1) [chromium] › tests\e2e\auth.spec.js:48:3 › Autenticación › AUTH-03b: un comprador no puede entrar a pantallas de productor 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/dashboard$/
+    Received string:  "http://127.0.0.1:5199/my-products"
+    Timeout: 7000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 7000ms
+        18 × locator resolved to <html lang="en">…</html>
+           - unexpected value "http://127.0.0.1:5199/my-products"
+
+
+      50 |     await loginAs(page, 'buyer');
+      51 |     await page.goto('/my-products');
+    > 52 |     await expect(page).toHaveURL(/\/dashboard$/);
+         |                        ^
+      53 |     await page.goto('/producer-orders');
+      54 |     await expect(page).toHaveURL(/\/dashboard$/);
+      55 |   });
+        at C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\auth.spec.js:52:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\auth-Autenticación-AUTH-03-067ac-ar-a-pantallas-de-productor-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\auth-Autenticación-AUTH-03-067ac-ar-a-pantallas-de-productor-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\auth-Autenticación-AUTH-03-067ac-ar-a-pantallas-de-productor-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\auth-Autenticación-AUTH-03-067ac-ar-a-pantallas-de-productor-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests\e2e\auth.spec.js:57:3 › Autenticación › AUTH-04: productor pendiente de aprobación no accede a sus pantallas 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/dashboard$/
+    Received string:  "http://127.0.0.1:5199/my-products"
+    Timeout: 7000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 7000ms
+        18 × locator resolved to <html lang="en">…</html>
+           - unexpected value "http://127.0.0.1:5199/my-products"
+
+
+      59 |     await loginAs(page, 'pending');
+      60 |     await page.goto('/my-products');
+    > 61 |     await expect(page).toHaveURL(/\/dashboard$/);
+         |                        ^
+      62 |     // el dashboard muestra la pantalla de aprobación pendiente, no el panel del productor
+      63 |     expect(USERS.pending.status).toBe('pending');
+      64 |   });
+        at C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\auth.spec.js:61:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\auth-Autenticación-AUTH-04-c1755-n-no-accede-a-sus-pantallas-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\auth-Autenticación-AUTH-04-c1755-n-no-accede-a-sus-pantallas-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\auth-Autenticación-AUTH-04-c1755-n-no-accede-a-sus-pantallas-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\auth-Autenticación-AUTH-04-c1755-n-no-accede-a-sus-pantallas-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests\e2e\catalog.spec.js:17:3 › Catálogo (CAT-01) › CAT-01 @smoke: lista los productos activos 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('productos encontrados')
+    Expected: visible
+    Timeout: 7000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('productos encontrados') with timeout 7000ms
+      - waiting for getByText('productos encontrados')
+
+
+       7 |   await loginAs(page, 'buyer');
+       8 |   await page.goto('/marketplace');
+    >  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();
+         |                                                         ^
+      10 | }
+      11 |
+      12 | async function abrirProducto(page, nombre) {
+        at abrirMarketplace (C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:9:57)
+        at C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:18:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\catalog-Catálogo-CAT-01-CA-1887b-lista-los-productos-activos-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\catalog-Catálogo-CAT-01-CA-1887b-lista-los-productos-activos-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\catalog-Catálogo-CAT-01-CA-1887b-lista-los-productos-activos-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\catalog-Catálogo-CAT-01-CA-1887b-lista-los-productos-activos-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests\e2e\catalog.spec.js:23:3 › Catálogo (CAT-01) › CAT-01b: la búsqueda por texto filtra resultados y se puede limpiar 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('productos encontrados')
+    Expected: visible
+    Timeout: 7000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('productos encontrados') with timeout 7000ms
+      - waiting for getByText('productos encontrados')
+
+
+       7 |   await loginAs(page, 'buyer');
+       8 |   await page.goto('/marketplace');
+    >  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();
+         |                                                         ^
+      10 | }
+      11 |
+      12 | async function abrirProducto(page, nombre) {
+        at abrirMarketplace (C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:9:57)
+        at C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:24:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\catalog-Catálogo-CAT-01-CA-63ef9-sultados-y-se-puede-limpiar-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\catalog-Catálogo-CAT-01-CA-63ef9-sultados-y-se-puede-limpiar-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\catalog-Catálogo-CAT-01-CA-63ef9-sultados-y-se-puede-limpiar-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\catalog-Catálogo-CAT-01-CA-63ef9-sultados-y-se-puede-limpiar-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests\e2e\catalog.spec.js:32:3 › Catálogo (CAT-01) › CAT-01c: el filtro por categoría muestra solo esa categoría 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('productos encontrados')
+    Expected: visible
+    Timeout: 7000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('productos encontrados') with timeout 7000ms
+      - waiting for getByText('productos encontrados')
+
+
+       7 |   await loginAs(page, 'buyer');
+       8 |   await page.goto('/marketplace');
+    >  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();
+         |                                                         ^
+      10 | }
+      11 |
+      12 | async function abrirProducto(page, nombre) {
+        at abrirMarketplace (C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:9:57)
+        at C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:33:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\catalog-Catálogo-CAT-01-CA-fb0f3--muestra-solo-esa-categoría-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\catalog-Catálogo-CAT-01-CA-fb0f3--muestra-solo-esa-categoría-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\catalog-Catálogo-CAT-01-CA-fb0f3--muestra-solo-esa-categoría-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\catalog-Catálogo-CAT-01-CA-fb0f3--muestra-solo-esa-categoría-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests\e2e\catalog.spec.js:39:3 › Catálogo (CAT-01) › CAT-01d: búsqueda sin coincidencias muestra estado vacío 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('productos encontrados')
+    Expected: visible
+    Timeout: 7000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('productos encontrados') with timeout 7000ms
+      - waiting for getByText('productos encontrados')
+
+
+       7 |   await loginAs(page, 'buyer');
+       8 |   await page.goto('/marketplace');
+    >  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();
+         |                                                         ^
+      10 | }
+      11 |
+      12 | async function abrirProducto(page, nombre) {
+        at abrirMarketplace (C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:9:57)
+        at C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:40:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\catalog-Catálogo-CAT-01-CA-a27a9-encias-muestra-estado-vacío-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\catalog-Catálogo-CAT-01-CA-a27a9-encias-muestra-estado-vacío-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\catalog-Catálogo-CAT-01-CA-a27a9-encias-muestra-estado-vacío-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\catalog-Catálogo-CAT-01-CA-a27a9-encias-muestra-estado-vacío-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium] › tests\e2e\catalog.spec.js:45:3 › Catálogo (CAT-01) › CAT-01e: ordenar por precio de menor a mayor 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('productos encontrados')
+    Expected: visible
+    Timeout: 7000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('productos encontrados') with timeout 7000ms
+      - waiting for getByText('productos encontrados')
+
+
+       7 |   await loginAs(page, 'buyer');
+       8 |   await page.goto('/marketplace');
+    >  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();
+         |                                                         ^
+      10 | }
+      11 |
+      12 | async function abrirProducto(page, nombre) {
+        at abrirMarketplace (C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:9:57)
+        at C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:46:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\catalog-Catálogo-CAT-01-CA-bf471-por-precio-de-menor-a-mayor-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\catalog-Catálogo-CAT-01-CA-bf471-por-precio-de-menor-a-mayor-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\catalog-Catálogo-CAT-01-CA-bf471-por-precio-de-menor-a-mayor-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\catalog-Catálogo-CAT-01-CA-bf471-por-precio-de-menor-a-mayor-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium] › tests\e2e\catalog.spec.js:54:3 › Carrito (CART-01 / CART-02) › CART-00 @smoke: agregar un producto muestra el carrito con la cantidad 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('productos encontrados')
+    Expected: visible
+    Timeout: 7000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('productos encontrados') with timeout 7000ms
+      - waiting for getByText('productos encontrados')
+
+
+       7 |   await loginAs(page, 'buyer');
+       8 |   await page.goto('/marketplace');
+    >  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();
+         |                                                         ^
+      10 | }
+      11 |
+      12 | async function abrirProducto(page, nombre) {
+        at abrirMarketplace (C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:9:57)
+        at C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:55:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\catalog-Carrito-CART-01-CA-37825--el-carrito-con-la-cantidad-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\catalog-Carrito-CART-01-CA-37825--el-carrito-con-la-cantidad-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\catalog-Carrito-CART-01-CA-37825--el-carrito-con-la-cantidad-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\catalog-Carrito-CART-01-CA-37825--el-carrito-con-la-cantidad-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [chromium] › tests\e2e\catalog.spec.js:63:3 › Carrito (CART-01 / CART-02) › CART-01: no permite mezclar productos de dos productores 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('productos encontrados')
+    Expected: visible
+    Timeout: 7000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('productos encontrados') with timeout 7000ms
+      - waiting for getByText('productos encontrados')
+
+
+       7 |   await loginAs(page, 'buyer');
+       8 |   await page.goto('/marketplace');
+    >  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();
+         |                                                         ^
+      10 | }
+      11 |
+      12 | async function abrirProducto(page, nombre) {
+        at abrirMarketplace (C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:9:57)
+        at C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:64:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\catalog-Carrito-CART-01-CA-74d30-roductos-de-dos-productores-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\catalog-Carrito-CART-01-CA-74d30-roductos-de-dos-productores-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\catalog-Carrito-CART-01-CA-74d30-roductos-de-dos-productores-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\catalog-Carrito-CART-01-CA-74d30-roductos-de-dos-productores-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [chromium] › tests\e2e\catalog.spec.js:76:3 › Carrito (CART-01 / CART-02) › CART-02: el carrito se conserva al recargar la página (corrige BUG-02) 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('productos encontrados')
+    Expected: visible
+    Timeout: 7000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('productos encontrados') with timeout 7000ms
+      - waiting for getByText('productos encontrados')
+
+
+       7 |   await loginAs(page, 'buyer');
+       8 |   await page.goto('/marketplace');
+    >  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();
+         |                                                         ^
+      10 | }
+      11 |
+      12 | async function abrirProducto(page, nombre) {
+        at abrirMarketplace (C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:9:57)
+        at C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\tests\e2e\catalog.spec.js:77:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\catalog-Carrito-CART-01-CA-84f4c-r-la-página-corrige-BUG-02--chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\catalog-Carrito-CART-01-CA-84f4c-r-la-página-corrige-BUG-02--chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\catalog-Carrito-CART-01-CA-84f4c-r-la-página-corrige-BUG-02--chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\catalog-Carrito-CART-01-CA-84f4c-r-la-página-corrige-BUG-02--chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10 failed
+    [chromium] › tests\e2e\auth.spec.js:48:3 › Autenticación › AUTH-03b: un comprador no puede entrar a pantallas de productor 
+    [chromium] › tests\e2e\auth.spec.js:57:3 › Autenticación › AUTH-04: productor pendiente de aprobación no accede a sus pantallas 
+    [chromium] › tests\e2e\catalog.spec.js:17:3 › Catálogo (CAT-01) › CAT-01 @smoke: lista los productos activos 
+    [chromium] › tests\e2e\catalog.spec.js:23:3 › Catálogo (CAT-01) › CAT-01b: la búsqueda por texto filtra resultados y se puede limpiar 
+    [chromium] › tests\e2e\catalog.spec.js:32:3 › Catálogo (CAT-01) › CAT-01c: el filtro por categoría muestra solo esa categoría 
+    [chromium] › tests\e2e\catalog.spec.js:39:3 › Catálogo (CAT-01) › CAT-01d: búsqueda sin coincidencias muestra estado vacío 
+    [chromium] › tests\e2e\catalog.spec.js:45:3 › Catálogo (CAT-01) › CAT-01e: ordenar por precio de menor a mayor 
+    [chromium] › tests\e2e\catalog.spec.js:54:3 › Carrito (CART-01 / CART-02) › CART-00 @smoke: agregar un producto muestra el carrito con la cantidad 
+    [chromium] › tests\e2e\catalog.spec.js:63:3 › Carrito (CART-01 / CART-02) › CART-01: no permite mezclar productos de dos productores 
+    [chromium] › tests\e2e\catalog.spec.js:76:3 › Carrito (CART-01 / CART-02) › CART-02: el carrito se conserva al recargar la página (corrige BUG-02) 
+  4 passed (14.1s)

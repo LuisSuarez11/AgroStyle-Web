@@ -1,0 +1,321 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.aw {
+  min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  background: #f4f6f9;
+}
+
+/* ─── Navbar ─── */
+.aw-navbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1.5rem;
+  height: 52px;
+  background: #2e7d32;
+}
+
+.aw-brand {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-right: 1rem;
+  white-space: nowrap;
+}
+
+.aw-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex: 1;
+}
+
+.aw-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: 'Outfit', sans-serif;
+  padding: 0.4rem 0.85rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.aw-nav-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.aw-nav-btn.active {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-weight: 700;
+}
+
+.aw-nav-badge {
+  background: #fff;
+  color: #2e7d32;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  min-width: 18px;
+  text-align: center;
+}
+
+.aw-logout-btn {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 500;
+  font-family: 'Outfit', sans-serif;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.aw-logout-btn:hover { background: rgba(255, 255, 255, 0.15); }
+
+/* ─── Content ─── */
+.aw-content {
+  padding: 1.5rem 1.75rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.aw-page-header {
+  margin-bottom: 1.25rem;
+}
+
+.aw-page-header h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.2rem;
+}
+
+.aw-page-header p {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+/* ─── Info boxes ─── */
+.aw-info-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-box {
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.ib-yellow { background: #f39c12; }
+.ib-green  { background: #28a745; }
+.ib-blue   { background: #007bff; }
+.ib-teal   { background: #17a2b8; }
+
+.ib-num {
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 0.15rem;
+}
+
+.ib-label {
+  font-size: 0.82rem;
+  opacity: 0.9;
+}
+
+/* ─── Cards ─── */
+.aw-card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1), 0 1px 4px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.aw-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.25rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f8f9fa;
+}
+
+.aw-card-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+}
+
+.aw-link-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  padding: 0;
+}
+.aw-link-btn:hover { text-decoration: underline; }
+
+.aw-card-body {
+  padding: 1.1rem 1.25rem;
+}
+
+/* ─── Table ─── */
+.aw-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.855rem;
+}
+
+.aw-table th {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.aw-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #f3f4f6;
+  color: #374151;
+  vertical-align: middle;
+}
+
+.aw-table tr:last-child td { border-bottom: none; }
+.aw-table tbody tr:hover td { background: #fafafa; }
+
+/* ─── Cell helpers ─── */
+.user-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.aw-avatar-sm {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #374151;
+  flex-shrink: 0;
+}
+
+.cell-name { font-weight: 600; color: #111827; font-size: 0.855rem; }
+.cell-sub  { font-size: 0.75rem; color: #9ca3af; margin-top: 0.1rem; }
+
+/* ─── Badges ─── */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badge-warning   { background: #fff3cd; color: #856404; }
+.badge-success   { background: #d4edda; color: #155724; }
+.badge-danger    { background: #f8d7da; color: #721c24; }
+.badge-secondary { background: #e2e3e5; color: #383d41; }
+
+/* ─── Action buttons ─── */
+.aw-actions {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn-sm {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.28rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+.btn-sm:hover { opacity: 0.87; }
+
+.btn-success  { background: #28a745; color: #fff; }
+.btn-danger   { background: #dc3545; color: #fff; }
+.btn-primary  { background: #007bff; color: #fff; }
+.btn-secondary{ background: #6c757d; color: #fff; }
+
+/* ─── Reject inline ─── */
+.reject-inline {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.reject-input {
+  flex: 1;
+  min-width: 140px;
+  padding: 0.28rem 0.6rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-family: 'Outfit', sans-serif;
+}
+.reject-input:focus {
+  outline: none;
+  border-color: #2e7d32;
+  box-shadow: 0 0 0 2px rgba(46, 125, 50, 0.15);
+}
+
+/* ─── Misc ─── */
+.empty-msg   { color: #9ca3af; font-size: 0.875rem; padding: 1.5rem 0; text-align: center; }
+.loading-msg { color: #9ca3af; font-size: 0.875rem; padding: 0.5rem 0; }
+
+/* ─── Responsive ─── */
+@media (max-width: 1024px) {
+  .aw-info-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .aw-content { padding: 1rem; }
+  .aw-nav-links { gap: 0; }
+}
+
+@media (max-width: 640px) {
+  .aw-info-row { grid-template-columns: 1fr; }
+}

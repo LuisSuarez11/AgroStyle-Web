@@ -1,0 +1,9 @@
+
+ RUN  v5.1.2 C:/Users/luiss/ISI/6to Semestre/SQA/Tercer Momento/AgroStyle-master/AgroStyle-master/AgroStyle-master
+
+
+ Test Files  5 passed (5)
+      Tests  34 passed (34)
+   Start at  13:11:19
+   Duration  2.78s (environment 86%, import 9%, tests 3%, transform 1%, worker 1%)
+

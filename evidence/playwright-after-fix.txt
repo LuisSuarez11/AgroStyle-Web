@@ -1,0 +1,24 @@
+[WebServer] [plugin builtin:vite-reporter] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+Running 14 tests using 11 workers
+
+  ok  4 [chromium] › tests\e2e\auth.spec.js:15:3 › Autenticación › AUTH-01b: credenciales incorrectas muestran un mensaje claro y no inician sesión (894ms)
+  ok  2 [chromium] › tests\e2e\catalog.spec.js:39:3 › Catálogo (CAT-01) › CAT-01d: búsqueda sin coincidencias muestra estado vacío (1.0s)
+  ok  3 [chromium] › tests\e2e\catalog.spec.js:23:3 › Catálogo (CAT-01) › CAT-01b: la búsqueda por texto filtra resultados y se puede limpiar (1.0s)
+  ok  6 [chromium] › tests\e2e\catalog.spec.js:17:3 › Catálogo (CAT-01) › CAT-01 @smoke: lista los productos activos (1.0s)
+  ok  1 [chromium] › tests\e2e\auth.spec.js:7:3 › Autenticación › AUTH-01 @smoke: comprador inicia y cierra sesión (1.3s)
+  ok  7 [chromium] › tests\e2e\auth.spec.js:57:3 › Autenticación › AUTH-04: productor pendiente de aprobación no accede a sus pantallas (1.1s)
+  ok  5 [chromium] › tests\e2e\auth.spec.js:25:3 › Autenticación › AUTH-REG-01 @smoke: registro de comprador (detectó BUG-01: toLower) (1.2s)
+  ok  9 [chromium] › tests\e2e\auth.spec.js:40:3 › Autenticación › AUTH-03: usuario sin sesión es redirigido a /login desde rutas protegidas (1.1s)
+  ok 10 [chromium] › tests\e2e\catalog.spec.js:32:3 › Catálogo (CAT-01) › CAT-01c: el filtro por categoría muestra solo esa categoría (1.4s)
+  ok 11 [chromium] › tests\e2e\catalog.spec.js:45:3 › Catálogo (CAT-01) › CAT-01e: ordenar por precio de menor a mayor (1.3s)
+  ok 12 [chromium] › tests\e2e\catalog.spec.js:54:3 › Carrito (CART-01 / CART-02) › CART-00 @smoke: agregar un producto muestra el carrito con la cantidad (1.1s)
+  ok  8 [chromium] › tests\e2e\auth.spec.js:48:3 › Autenticación › AUTH-03b: un comprador no puede entrar a pantallas de productor (2.0s)
+  ok 14 [chromium] › tests\e2e\catalog.spec.js:76:3 › Carrito (CART-01 / CART-02) › CART-02: el carrito se conserva al recargar la página (corrige BUG-02) (1.1s)
+  ok 13 [chromium] › tests\e2e\catalog.spec.js:63:3 › Carrito (CART-01 / CART-02) › CART-01: no permite mezclar productos de dos productores (1.2s)
+
+  14 passed (8.3s)

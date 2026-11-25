@@ -1,0 +1,70 @@
+
+ RUN  v5.1.2 C:/Users/luiss/ISI/6to Semestre/SQA/Tercer Momento/AgroStyle-master/AgroStyle-master/AgroStyle-master
+
+ ❯ tests/unit/cart.test.jsx (7 tests | 1 failed) 28ms
+   ❯ CartContext (7)
+     × CART-02 (requisito deseado): el carrito persiste al remontar la app 8ms
+ ❯ tests/unit/authRegister.test.jsx (2 tests | 2 failed) 161ms
+   ❯ register (2)
+     × AUTH-REG-01: registra un comprador y normaliza el correo a minúsculas 81ms
+     × rechaza contraseñas cortas y roles no públicos 79ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/authRegister.test.jsx > register > AUTH-REG-01: registra un comprador y normaliza el correo a minúsculas
+TypeError: email.trim(...).toLower is not a function
+ ❯ Object.register src/context/AuthContext.jsx:124:37
+    122|   async function register(fullName, email, password, role) {
+    123|     const cleanName = fullName.trim();
+    124|     const cleanEmail = email.trim().toLower();
+       |                                     ^
+    125|     if (!cleanName) throw new Error('El nombre completo es obligatorio…
+    126|     if (!cleanEmail) throw new Error('El correo electrónico es obligat…
+ ❯ tests/unit/authRegister.test.jsx:33:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+
+ FAIL  tests/unit/authRegister.test.jsx > register > rechaza contraseñas cortas y roles no públicos
+AssertionError: expected [Function] to throw error matching /6 caracteres/ but got 'email.trim(...).toLower is not a func…'
+
+- Expected:
+/6 caracteres/
+
++ Received:
+"email.trim(...).toLower is not a function"
+
+ ❯ tests/unit/authRegister.test.jsx:40:75
+     38|   it('rechaza contraseñas cortas y roles no públicos', async () => {
+     39|     const { result } = await getAuth();
+     40|     await expect(result.current.register('Ana', 'a@b.co', '123', 'buye…
+       |                                                                           ^
+     41|     await expect(result.current.register('Ana', 'a@b.co', '123456', 'a…
+     42|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯
+
+ FAIL  tests/unit/cart.test.jsx > CartContext > CART-02 (requisito deseado): el carrito persiste al remontar la app
+AssertionError: expected [] to have a length of 1 but got +0
+
+- Expected
++ Received
+
+- 1
++ 0
+
+ ❯ tests/unit/cart.test.jsx:69:41
+     67|     const second = renderHook(() => useCart(), { wrapper });
+     68|     // Falla mientras el carrito viva solo en useState (BUG-02).
+     69|     expect(second.result.current.items).toHaveLength(1);
+       |                                         ^
+     70|   });
+     71| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯
+
+
+ Test Files  2 failed | 3 passed (5)
+      Tests  3 failed | 31 passed (34)
+   Start at  13:03:45
+   Duration  1.95s (environment 86%, import 9%, tests 3%, transform 1%)
+

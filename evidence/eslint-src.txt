@@ -1,0 +1,314 @@
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\App.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\components\AddFarmModal.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\components\CartButton.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\components\CartDrawer.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\components\ProductCard.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\components\ProductDetailModal.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\components\ProductFormModal.jsx
+   1:8   error  'React' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                no-unused-vars
+  35:20  error  'setImageUrl' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 no-unused-vars
+  61:9   error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  59 |         const d = new Date();
+  60 |         d.setDate(d.getDate() + 7);
+> 61 |         setAvailableDate(d.toISOString().slice(0, 10));
+     |         ^^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  62 |       }
+  63 |     } else {
+  64 |       setAvailableDate(today());  react-hooks/set-state-in-effect
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\components\QRPaymentModal.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\context\AuthContext.jsx
+  6:17  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\context\CartContext.jsx
+  1:8   error  'React' is defined but never used                                                                                               no-unused-vars
+  5:17  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\pages\AdminDashboard.jsx
+   1:8   error  'React' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             no-unused-vars
+  54:21  error  Error: Cannot access variable before it is declared
+
+`loadAll` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+  52 |   const [rejectingDocId, setRejectingDocId]   = useState(null);
+  53 |
+> 54 |   useEffect(() => { loadAll(); }, []);
+     |                     ^^^^^^^ `loadAll` accessed before it is declared
+  55 |
+  56 |   async function loadAll() {
+  57 |     setLoading(true);
+
+  54 |   useEffect(() => { loadAll(); }, []);
+  55 |
+> 56 |   async function loadAll() {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 57 |     setLoading(true);
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 58 |     try {
+     …
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 73 |     }
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 74 |   }
+     | ^^^^ `loadAll` is declared here
+  75 |
+  76 |   async function approveUser(userId) {
+  77 |     await approveProfile(userId, currentUser.id);  react-hooks/immutability
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\pages\BuyerDashboard.jsx
+   1:8   error  'React' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 no-unused-vars
+   4:47  error  'ShoppingCart' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          no-unused-vars
+  28:19  error  'closeCart' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    no-unused-vars
+  38:5   error  Error: Cannot access variable before it is declared
+
+`load` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+  36 |
+  37 |   useEffect(() => {
+> 38 |     load();
+     |     ^^^^ `load` accessed before it is declared
+  39 |     getBrowserLocation().then((l) => {
+  40 |       setUserLoc({ lat: l.lat, lng: l.lng });
+  41 |       setLocKnown(!l.fallback);
+
+  43 |   }, []);
+  44 |
+> 45 |   async function load() {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |     setLoading(true);
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 47 |     try {
+     …
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 54 |     }
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 55 |   }
+     | ^^^^ `load` is declared here
+  56 |
+  57 |   const enriched = useMemo(() => {
+  58 |     const origin = userLoc || DEFAULT_CENTER;  react-hooks/immutability
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\pages\BuyerOrders.jsx
+   1:8   error    'React' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        no-unused-vars
+  26:38  error    Error: Cannot access variable before it is declared
+
+`load` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+  24 |   const [payingOrder, setPayingOrder] = useState(null);
+  25 |
+> 26 |   useEffect(() => { if (currentUser) load(); }, [currentUser]);
+     |                                      ^^^^ `load` accessed before it is declared
+  27 |
+  28 |   async function load() {
+  29 |     setLoading(true);
+
+  26 |   useEffect(() => { if (currentUser) load(); }, [currentUser]);
+  27 |
+> 28 |   async function load() {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |     setLoading(true);
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 30 |     try {
+     …
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 37 |     }
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 38 |   }
+     | ^^^^ `load` is declared here
+  39 |
+  40 |   function handlePaid(updated) {
+  41 |     setOrders((prev) => prev.map((o) => o.id === updated.id ? updated : o));  react-hooks/immutability
+  26:49  warning  React Hook useEffect has a missing dependency: 'load'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  react-hooks/exhaustive-deps
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\pages\Marketplace.jsx
+   1:8   error  'React' is defined but never used               no-unused-vars
+   9:43  error  'formatDistance' is defined but never used      no-unused-vars
+  35:19  error  'closeCart' is assigned a value but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\pages\MyProducts.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\pages\PendingApproval.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\pages\ProducerDashboard.jsx
+   1:8  error    'React' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        no-unused-vars
+  54:5  error    Error: Cannot access variable before it is declared
+
+`fetchFarms` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+  52 |   useEffect(() => {
+  53 |     if (!currentUser) return;
+> 54 |     fetchFarms();
+     |     ^^^^^^^^^^ `fetchFarms` accessed before it is declared
+  55 |     fetchDocuments();
+  56 |     fetchProducts();
+  57 |   }, [currentUser]);
+
+  57 |   }, [currentUser]);
+  58 |
+> 59 |   async function fetchFarms() {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 60 |     try {
+     | ^^^^^^^^^
+> 61 |       const list = await listProducerFarms(currentUser.id);
+     | ^^^^^^^^^
+> 62 |       setFarms(list);
+     | ^^^^^^^^^
+> 63 |     } catch (err) {
+     | ^^^^^^^^^
+> 64 |       console.error(err);
+     | ^^^^^^^^^
+> 65 |     } finally {
+     | ^^^^^^^^^
+> 66 |       setLoadingFarms(false);
+     | ^^^^^^^^^
+> 67 |     }
+     | ^^^^^^^^^
+> 68 |   }
+     | ^^^^ `fetchFarms` is declared here
+  69 |
+  70 |   async function fetchProducts() {
+  71 |     try {          react-hooks/immutability
+  55:5  error    Error: Cannot access variable before it is declared
+
+`fetchDocuments` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+  53 |     if (!currentUser) return;
+  54 |     fetchFarms();
+> 55 |     fetchDocuments();
+     |     ^^^^^^^^^^^^^^ `fetchDocuments` accessed before it is declared
+  56 |     fetchProducts();
+  57 |   }, [currentUser]);
+  58 |
+
+  77 |   }
+  78 |
+> 79 |   async function fetchDocuments() {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 80 |     try {
+     | ^^^^^^^^^
+> 81 |       const list = await listProducerDocuments(currentUser.id);
+     | ^^^^^^^^^
+> 82 |       setDocuments(list);
+     | ^^^^^^^^^
+> 83 |     } catch (err) {
+     | ^^^^^^^^^
+> 84 |       console.error(err);
+     | ^^^^^^^^^
+> 85 |     } finally {
+     | ^^^^^^^^^
+> 86 |       setLoadingDocs(false);
+     | ^^^^^^^^^
+> 87 |     }
+     | ^^^^^^^^^
+> 88 |   }
+     | ^^^^ `fetchDocuments` is declared here
+  89 |
+  90 |   async function handleUpload(e) {
+  91 |     e.preventDefault();  react-hooks/immutability
+  56:5  error    Error: Cannot access variable before it is declared
+
+`fetchProducts` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+  54 |     fetchFarms();
+  55 |     fetchDocuments();
+> 56 |     fetchProducts();
+     |     ^^^^^^^^^^^^^ `fetchProducts` accessed before it is declared
+  57 |   }, [currentUser]);
+  58 |
+  59 |   async function fetchFarms() {
+
+  68 |   }
+  69 |
+> 70 |   async function fetchProducts() {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 71 |     try {
+     | ^^^^^^^^^
+> 72 |       const list = await listProducerProducts(currentUser.id);
+     | ^^^^^^^^^
+> 73 |       setProducts(list);
+     | ^^^^^^^^^
+> 74 |     } catch (err) {
+     | ^^^^^^^^^
+> 75 |       console.error(err);
+     | ^^^^^^^^^
+> 76 |     }
+     | ^^^^^^^^^
+> 77 |   }
+     | ^^^^ `fetchProducts` is declared here
+  78 |
+  79 |   async function fetchDocuments() {
+  80 |     try {                                                                                                                  react-hooks/immutability
+  57:6  warning  React Hook useEffect has missing dependencies: 'fetchDocuments', 'fetchFarms', and 'fetchProducts'. Either include them or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   react-hooks/exhaustive-deps
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\pages\ProducerOrders.jsx
+   1:8   error    'React' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  no-unused-vars
+  31:38  error    Error: Cannot access variable before it is declared
+
+`load` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+  29 |   const [actioning,       setActioning]       = useState(null); // orderId
+  30 |
+> 31 |   useEffect(() => { if (currentUser) load(); }, [currentUser]);
+     |                                      ^^^^ `load` accessed before it is declared
+  32 |
+  33 |   async function load() {
+  34 |     setLoading(true);
+
+  31 |   useEffect(() => { if (currentUser) load(); }, [currentUser]);
+  32 |
+> 33 |   async function load() {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |     setLoading(true);
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 35 |     try {
+     …
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 42 |     }
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 43 |   }
+     | ^^^^ `load` is declared here
+  44 |
+  45 |   async function handleConfirm(orderId) {
+  46 |     setActioning(orderId);  react-hooks/immutability
+  31:49  warning  React Hook useEffect has a missing dependency: 'load'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            react-hooks/exhaustive-deps
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\pages\Register.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\pages\TransporterDashboard.jsx
+  1:8   error  'React' is defined but never used        no-unused-vars
+  3:42  error  'CheckSquare' is defined but never used  no-unused-vars
+  3:70  error  'Star' is defined but never used         no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\services\firebase\client.js
+  37:7  error  'shouldUseCloud' is assigned a value but never used  no-unused-vars
+
+C:\Users\luiss\ISI\6to Semestre\SQA\Tercer Momento\AgroStyle-master\AgroStyle-master\AgroStyle-master\src\services\orders.js
+  29:10  error  'mapOrder' is defined but never used  no-unused-vars
+
+✖ 41 problems (38 errors, 3 warnings)
+

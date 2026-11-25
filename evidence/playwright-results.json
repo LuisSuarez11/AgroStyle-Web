@@ -2,11 +2,11 @@
   "config": {
     "argv": [
       "C:\\Program Files\\nodejs\\node.exe",
-      "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\node_modules\\@playwright\\test\\cli.js",
+      "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\node_modules\\@playwright\\test\\cli.js",
       "test"
     ],
-    "configFile": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\playwright.config.js",
-    "rootDir": "C:/Users/luiss/ISI/6to Semestre/SQA/Tercer Momento/AgroStyle-master/AgroStyle-master/AgroStyle-master/tests/e2e",
+    "configFile": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\playwright.config.js",
+    "rootDir": "C:/Users/luiss/ISI/6to Semestre/SQA/Tercer Momento/AgroStyle/tests/e2e",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": true,
@@ -22,7 +22,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/luiss/ISI/6to Semestre/SQA/Tercer Momento/AgroStyle-master/AgroStyle-master/AgroStyle-master/test-results",
+        "outputDir": "C:/Users/luiss/ISI/6to Semestre/SQA/Tercer Momento/AgroStyle/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -30,7 +30,7 @@
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Users/luiss/ISI/6to Semestre/SQA/Tercer Momento/AgroStyle-master/AgroStyle-master/AgroStyle-master/tests/e2e",
+        "testDir": "C:/Users/luiss/ISI/6to Semestre/SQA/Tercer Momento/AgroStyle/tests/e2e",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -42,15 +42,15 @@
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results",
+        "outputDir": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
           "actualWorkers": 11
         },
         "name": "chromium",
-        "testDir": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e",
-        "snapshotDir": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e",
+        "testDir": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\tests\\e2e",
         "testIgnore": [],
         "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
         "timeout": 30000,
@@ -150,18 +150,18 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1149,
+                      "duration": 1569,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.300Z",
+                      "startTime": "2026-11-25T17:50:57.395Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\auth-Autenticación-AUTH-01-49382-ador-inicia-y-cierra-sesión-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\auth-Autenticación-AUTH-01-49382-ador-inicia-y-cierra-sesión-chromium\\test-finished-1.png"
                         }
                       ]
                     }
@@ -190,18 +190,18 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 961,
+                      "duration": 1218,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.299Z",
+                      "startTime": "2026-11-25T17:50:57.396Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\auth-Autenticación-AUTH-01-a3036-e-claro-y-no-inician-sesión-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\auth-Autenticación-AUTH-01-a3036-e-claro-y-no-inician-sesión-chromium\\test-finished-1.png"
                         }
                       ]
                     }
@@ -232,18 +232,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1154,
+                      "duration": 1586,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.200Z",
+                      "startTime": "2026-11-25T17:50:57.396Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\auth-Autenticación-AUTH-RE-56e55-dor-detectó-BUG-01-toLower--chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\auth-Autenticación-AUTH-RE-56e55-dor-detectó-BUG-01-toLower--chromium\\test-finished-1.png"
                         }
                       ]
                     }
@@ -272,18 +272,18 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1158,
+                      "duration": 1240,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.301Z",
+                      "startTime": "2026-11-25T17:50:57.424Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\auth-Autenticación-AUTH-03-dec81-ogin-desde-rutas-protegidas-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\auth-Autenticación-AUTH-03-dec81-ogin-desde-rutas-protegidas-chromium\\test-finished-1.png"
                         }
                       ]
                     }
@@ -298,7 +298,7 @@
             },
             {
               "title": "AUTH-03b: un comprador no puede entrar a pantallas de productor",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -311,58 +311,24 @@
                     {
                       "workerIndex": 4,
                       "parallelIndex": 4,
-                      "status": "failed",
-                      "duration": 8136,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/dashboard$/\u001b[39m\nReceived string:  \u001b[31m\"http://127.0.0.1:5199/my-products\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    18 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://127.0.0.1:5199/my-products\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/dashboard$/\u001b[39m\nReceived string:  \u001b[31m\"http://127.0.0.1:5199/my-products\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    18 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://127.0.0.1:5199/my-products\"\u001b[22m\n\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\auth.spec.js:52:24",
-                        "location": {
-                          "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\auth.spec.js",
-                          "column": 24,
-                          "line": 52
-                        },
-                        "snippet": " \u001b[90m 50 |\u001b[39m     \u001b[36mawait\u001b[39m loginAs(page\u001b[33m,\u001b[39m \u001b[32m'buyer'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 51 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/my-products'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 52 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/\\/dashboard$/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 53 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/producer-orders'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/\\/dashboard$/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 55 |\u001b[39m   })\u001b[33m;\u001b[39m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\auth.spec.js",
-                            "column": 24,
-                            "line": 52
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/dashboard$/\u001b[39m\nReceived string:  \u001b[31m\"http://127.0.0.1:5199/my-products\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    18 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://127.0.0.1:5199/my-products\"\u001b[22m\n\n\n  50 |     await loginAs(page, 'buyer');\n  51 |     await page.goto('/my-products');\n> 52 |     await expect(page).toHaveURL(/\\/dashboard$/);\n     |                        ^\n  53 |     await page.goto('/producer-orders');\n  54 |     await expect(page).toHaveURL(/\\/dashboard$/);\n  55 |   });\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\auth.spec.js:52:24"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 2177,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.262Z",
+                      "startTime": "2026-11-25T17:50:57.375Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\auth-Autenticación-AUTH-03-067ac-ar-a-pantallas-de-productor-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\auth-Autenticación-AUTH-03-067ac-ar-a-pantallas-de-productor-chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\auth-Autenticación-AUTH-03-067ac-ar-a-pantallas-de-productor-chromium\\trace.zip"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\auth-Autenticación-AUTH-03-067ac-ar-a-pantallas-de-productor-chromium\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\auth.spec.js",
-                        "column": 24,
-                        "line": 52
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d5ed79a6b333c2ba7209-bd9c931966120615f7d2",
@@ -372,7 +338,7 @@
             },
             {
               "title": "AUTH-04: productor pendiente de aprobación no accede a sus pantallas",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -385,58 +351,24 @@
                     {
                       "workerIndex": 5,
                       "parallelIndex": 5,
-                      "status": "failed",
-                      "duration": 8704,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/dashboard$/\u001b[39m\nReceived string:  \u001b[31m\"http://127.0.0.1:5199/my-products\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    17 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://127.0.0.1:5199/my-products\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/dashboard$/\u001b[39m\nReceived string:  \u001b[31m\"http://127.0.0.1:5199/my-products\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    17 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://127.0.0.1:5199/my-products\"\u001b[22m\n\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\auth.spec.js:61:24",
-                        "location": {
-                          "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\auth.spec.js",
-                          "column": 24,
-                          "line": 61
-                        },
-                        "snippet": " \u001b[90m 59 |\u001b[39m     \u001b[36mawait\u001b[39m loginAs(page\u001b[33m,\u001b[39m \u001b[32m'pending'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/my-products'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 61 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/\\/dashboard$/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 62 |\u001b[39m     \u001b[90m// el dashboard muestra la pantalla de aprobación pendiente, no el panel del productor\u001b[39m\n \u001b[90m 63 |\u001b[39m     expect(\u001b[33mUSERS\u001b[39m\u001b[33m.\u001b[39mpending\u001b[33m.\u001b[39mstatus)\u001b[33m.\u001b[39mtoBe(\u001b[32m'pending'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   })\u001b[33m;\u001b[39m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\auth.spec.js",
-                            "column": 24,
-                            "line": 61
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/dashboard$/\u001b[39m\nReceived string:  \u001b[31m\"http://127.0.0.1:5199/my-products\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    17 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://127.0.0.1:5199/my-products\"\u001b[22m\n\n\n  59 |     await loginAs(page, 'pending');\n  60 |     await page.goto('/my-products');\n> 61 |     await expect(page).toHaveURL(/\\/dashboard$/);\n     |                        ^\n  62 |     // el dashboard muestra la pantalla de aprobación pendiente, no el panel del productor\n  63 |     expect(USERS.pending.status).toBe('pending');\n  64 |   });\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\auth.spec.js:61:24"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 1702,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.234Z",
+                      "startTime": "2026-11-25T17:50:57.428Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\auth-Autenticación-AUTH-04-c1755-n-no-accede-a-sus-pantallas-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\auth-Autenticación-AUTH-04-c1755-n-no-accede-a-sus-pantallas-chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\auth-Autenticación-AUTH-04-c1755-n-no-accede-a-sus-pantallas-chromium\\trace.zip"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\auth-Autenticación-AUTH-04-c1755-n-no-accede-a-sus-pantallas-chromium\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\auth.spec.js",
-                        "column": 24,
-                        "line": 61
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d5ed79a6b333c2ba7209-8107ca4ba18e05f1d765",
@@ -463,7 +395,7 @@
           "specs": [
             {
               "title": "CAT-01 @smoke: lista los productos activos",
-              "ok": false,
+              "ok": true,
               "tags": [
                 "smoke:"
               ],
@@ -478,58 +410,24 @@
                     {
                       "workerIndex": 6,
                       "parallelIndex": 6,
-                      "status": "failed",
-                      "duration": 7988,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:18:5",
-                        "location": {
-                          "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                          "column": 57,
-                          "line": 9
-                        },
-                        "snippet": " \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m loginAs(page\u001b[33m,\u001b[39m \u001b[32m'buyer'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/marketplace'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'productos encontrados'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m }\n \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m abrirProducto(page\u001b[33m,\u001b[39m nombre) {"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                            "column": 57,
-                            "line": 9
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n\n   7 |   await loginAs(page, 'buyer');\n   8 |   await page.goto('/marketplace');\n>  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();\n     |                                                         ^\n  10 | }\n  11 |\n  12 | async function abrirProducto(page, nombre) {\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:18:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 1991,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.245Z",
+                      "startTime": "2026-11-25T17:50:57.427Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-1887b-lista-los-productos-activos-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-1887b-lista-los-productos-activos-chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-1887b-lista-los-productos-activos-chromium\\trace.zip"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\catalog-Catálogo-CAT-01-CA-1887b-lista-los-productos-activos-chromium\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                        "column": 57,
-                        "line": 9
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d4514cd69630520b3123-a26b3b67d76f8c0474b8",
@@ -539,7 +437,7 @@
             },
             {
               "title": "CAT-01b: la búsqueda por texto filtra resultados y se puede limpiar",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -552,58 +450,24 @@
                     {
                       "workerIndex": 7,
                       "parallelIndex": 7,
-                      "status": "failed",
-                      "duration": 8286,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:24:5",
-                        "location": {
-                          "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                          "column": 57,
-                          "line": 9
-                        },
-                        "snippet": " \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m loginAs(page\u001b[33m,\u001b[39m \u001b[32m'buyer'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/marketplace'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'productos encontrados'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m }\n \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m abrirProducto(page\u001b[33m,\u001b[39m nombre) {"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                            "column": 57,
-                            "line": 9
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n\n   7 |   await loginAs(page, 'buyer');\n   8 |   await page.goto('/marketplace');\n>  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();\n     |                                                         ^\n  10 | }\n  11 |\n  12 | async function abrirProducto(page, nombre) {\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:24:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 2030,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.236Z",
+                      "startTime": "2026-11-25T17:50:57.396Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-63ef9-sultados-y-se-puede-limpiar-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-63ef9-sultados-y-se-puede-limpiar-chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-63ef9-sultados-y-se-puede-limpiar-chromium\\trace.zip"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\catalog-Catálogo-CAT-01-CA-63ef9-sultados-y-se-puede-limpiar-chromium\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                        "column": 57,
-                        "line": 9
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d4514cd69630520b3123-27b9b2ac8befdcc0dfd5",
@@ -613,7 +477,7 @@
             },
             {
               "title": "CAT-01c: el filtro por categoría muestra solo esa categoría",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -626,58 +490,24 @@
                     {
                       "workerIndex": 8,
                       "parallelIndex": 8,
-                      "status": "failed",
-                      "duration": 8220,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:33:5",
-                        "location": {
-                          "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                          "column": 57,
-                          "line": 9
-                        },
-                        "snippet": " \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m loginAs(page\u001b[33m,\u001b[39m \u001b[32m'buyer'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/marketplace'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'productos encontrados'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m }\n \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m abrirProducto(page\u001b[33m,\u001b[39m nombre) {"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                            "column": 57,
-                            "line": 9
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n\n   7 |   await loginAs(page, 'buyer');\n   8 |   await page.goto('/marketplace');\n>  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();\n     |                                                         ^\n  10 | }\n  11 |\n  12 | async function abrirProducto(page, nombre) {\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:33:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 2058,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.233Z",
+                      "startTime": "2026-11-25T17:50:57.461Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-fb0f3--muestra-solo-esa-categoría-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-fb0f3--muestra-solo-esa-categoría-chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-fb0f3--muestra-solo-esa-categoría-chromium\\trace.zip"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\catalog-Catálogo-CAT-01-CA-fb0f3--muestra-solo-esa-categoría-chromium\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                        "column": 57,
-                        "line": 9
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d4514cd69630520b3123-69597489d4fe96ff34ce",
@@ -687,7 +517,7 @@
             },
             {
               "title": "CAT-01d: búsqueda sin coincidencias muestra estado vacío",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -700,58 +530,24 @@
                     {
                       "workerIndex": 9,
                       "parallelIndex": 9,
-                      "status": "failed",
-                      "duration": 8081,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:40:5",
-                        "location": {
-                          "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                          "column": 57,
-                          "line": 9
-                        },
-                        "snippet": " \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m loginAs(page\u001b[33m,\u001b[39m \u001b[32m'buyer'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/marketplace'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'productos encontrados'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m }\n \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m abrirProducto(page\u001b[33m,\u001b[39m nombre) {"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                            "column": 57,
-                            "line": 9
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n\n   7 |   await loginAs(page, 'buyer');\n   8 |   await page.goto('/marketplace');\n>  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();\n     |                                                         ^\n  10 | }\n  11 |\n  12 | async function abrirProducto(page, nombre) {\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:40:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 1924,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.344Z",
+                      "startTime": "2026-11-25T17:50:57.428Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-a27a9-encias-muestra-estado-vacío-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-a27a9-encias-muestra-estado-vacío-chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-a27a9-encias-muestra-estado-vacío-chromium\\trace.zip"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\catalog-Catálogo-CAT-01-CA-a27a9-encias-muestra-estado-vacío-chromium\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                        "column": 57,
-                        "line": 9
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d4514cd69630520b3123-74d1de2672cd49c837a2",
@@ -761,7 +557,7 @@
             },
             {
               "title": "CAT-01e: ordenar por precio de menor a mayor",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -774,58 +570,24 @@
                     {
                       "workerIndex": 10,
                       "parallelIndex": 10,
-                      "status": "failed",
-                      "duration": 8601,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:46:5",
-                        "location": {
-                          "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                          "column": 57,
-                          "line": 9
-                        },
-                        "snippet": " \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m loginAs(page\u001b[33m,\u001b[39m \u001b[32m'buyer'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/marketplace'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'productos encontrados'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m }\n \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m abrirProducto(page\u001b[33m,\u001b[39m nombre) {"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                            "column": 57,
-                            "line": 9
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n\n   7 |   await loginAs(page, 'buyer');\n   8 |   await page.goto('/marketplace');\n>  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();\n     |                                                         ^\n  10 | }\n  11 |\n  12 | async function abrirProducto(page, nombre) {\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:46:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 1931,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:31.301Z",
+                      "startTime": "2026-11-25T17:50:57.424Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-bf471-por-precio-de-menor-a-mayor-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-bf471-por-precio-de-menor-a-mayor-chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Catálogo-CAT-01-CA-bf471-por-precio-de-menor-a-mayor-chromium\\trace.zip"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\catalog-Catálogo-CAT-01-CA-bf471-por-precio-de-menor-a-mayor-chromium\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                        "column": 57,
-                        "line": 9
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d4514cd69630520b3123-b6bfade442cee0a9f79b",
@@ -843,7 +605,7 @@
           "specs": [
             {
               "title": "CART-00 @smoke: agregar un producto muestra el carrito con la cantidad",
-              "ok": false,
+              "ok": true,
               "tags": [
                 "smoke:"
               ],
@@ -856,60 +618,26 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "failed",
-                      "duration": 7677,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:55:5",
-                        "location": {
-                          "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                          "column": 57,
-                          "line": 9
-                        },
-                        "snippet": " \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m loginAs(page\u001b[33m,\u001b[39m \u001b[32m'buyer'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/marketplace'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'productos encontrados'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m }\n \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m abrirProducto(page\u001b[33m,\u001b[39m nombre) {"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                            "column": 57,
-                            "line": 9
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n\n   7 |   await loginAs(page, 'buyer');\n   8 |   await page.goto('/marketplace');\n>  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();\n     |                                                         ^\n  10 | }\n  11 |\n  12 | async function abrirProducto(page, nombre) {\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:55:5"
-                        }
-                      ],
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1278,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:32.529Z",
+                      "startTime": "2026-11-25T17:50:58.993Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Carrito-CART-01-CA-37825--el-carrito-con-la-cantidad-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Carrito-CART-01-CA-37825--el-carrito-con-la-cantidad-chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Carrito-CART-01-CA-37825--el-carrito-con-la-cantidad-chromium\\trace.zip"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\catalog-Carrito-CART-01-CA-37825--el-carrito-con-la-cantidad-chromium\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                        "column": 57,
-                        "line": 9
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d4514cd69630520b3123-40c0bca253c3d9888a74",
@@ -919,7 +647,7 @@
             },
             {
               "title": "CART-01: no permite mezclar productos de dos productores",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -932,58 +660,24 @@
                     {
                       "workerIndex": 1,
                       "parallelIndex": 1,
-                      "status": "failed",
-                      "duration": 7645,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:64:5",
-                        "location": {
-                          "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                          "column": 57,
-                          "line": 9
-                        },
-                        "snippet": " \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m loginAs(page\u001b[33m,\u001b[39m \u001b[32m'buyer'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/marketplace'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'productos encontrados'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m }\n \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m abrirProducto(page\u001b[33m,\u001b[39m nombre) {"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                            "column": 57,
-                            "line": 9
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n\n   7 |   await loginAs(page, 'buyer');\n   8 |   await page.goto('/marketplace');\n>  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();\n     |                                                         ^\n  10 | }\n  11 |\n  12 | async function abrirProducto(page, nombre) {\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:64:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 1442,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:32.641Z",
+                      "startTime": "2026-11-25T17:50:58.997Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Carrito-CART-01-CA-74d30-roductos-de-dos-productores-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Carrito-CART-01-CA-74d30-roductos-de-dos-productores-chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Carrito-CART-01-CA-74d30-roductos-de-dos-productores-chromium\\trace.zip"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\catalog-Carrito-CART-01-CA-74d30-roductos-de-dos-productores-chromium\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                        "column": 57,
-                        "line": 9
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d4514cd69630520b3123-b722a7b53eb6df0569f3",
@@ -993,7 +687,7 @@
             },
             {
               "title": "CART-02: el carrito se conserva al recargar la página (corrige BUG-02)",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1004,60 +698,26 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "failed",
-                      "duration": 7599,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:77:5",
-                        "location": {
-                          "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                          "column": 57,
-                          "line": 9
-                        },
-                        "snippet": " \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m loginAs(page\u001b[33m,\u001b[39m \u001b[32m'buyer'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/marketplace'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'productos encontrados'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m }\n \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m abrirProducto(page\u001b[33m,\u001b[39m nombre) {"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                            "column": 57,
-                            "line": 9
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('productos encontrados')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('productos encontrados') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('productos encontrados')\u001b[22m\n\n\n   7 |   await loginAs(page, 'buyer');\n   8 |   await page.goto('/marketplace');\n>  9 |   await expect(page.getByText('productos encontrados')).toBeVisible();\n     |                                                         ^\n  10 | }\n  11 |\n  12 | async function abrirProducto(page, nombre) {\n    at abrirMarketplace (C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:9:57)\n    at C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js:77:5"
-                        }
-                      ],
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1313,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-25T17:08:32.718Z",
+                      "startTime": "2026-11-25T17:50:59.327Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Carrito-CART-01-CA-84f4c-r-la-página-corrige-BUG-02--chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Carrito-CART-01-CA-84f4c-r-la-página-corrige-BUG-02--chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\test-results\\catalog-Carrito-CART-01-CA-84f4c-r-la-página-corrige-BUG-02--chromium\\trace.zip"
+                          "path": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle\\test-results\\catalog-Carrito-CART-01-CA-84f4c-r-la-página-corrige-BUG-02--chromium\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\luiss\\ISI\\6to Semestre\\SQA\\Tercer Momento\\AgroStyle-master\\AgroStyle-master\\AgroStyle-master\\tests\\e2e\\catalog.spec.js",
-                        "column": 57,
-                        "line": 9
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d4514cd69630520b3123-30c5e5fab8b3296e687c",
@@ -1072,11 +732,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-25T17:08:26.574Z",
-    "duration": 14153.061,
-    "expected": 4,
+    "startTime": "2026-11-25T17:50:51.498Z",
+    "duration": 9576.609,
+    "expected": 14,
     "skipped": 0,
-    "unexpected": 10,
+    "unexpected": 0,
     "flaky": 0
   }
 }

@@ -1,0 +1,40 @@
+﻿
+
+Running 8 tests using 8 workers
+
+(node:20528) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:30488) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:34944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:31464) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:28496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9568) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:33908) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 8 [mobile-iphone] › tests\e2e\mobile.spec.js:25:3 › Móvil › MOB-02: el registro avanza por pasos en pantalla 
+móvil (785ms)
+  ok 2 [mobile-android] › tests\e2e\mobile.spec.js:25:3 › Móvil › MOB-02: el registro avanza por pasos en pantalla 
+móvil (969ms)
+  ok 1 [mobile-iphone] › tests\e2e\mobile.spec.js:16:3 › Móvil › MOB-01 @smoke: el login cabe en pantalla y permite 
+iniciar sesión táctil (1.1s)
+  ok 6 [mobile-android] › tests\e2e\mobile.spec.js:16:3 › Móvil › MOB-01 @smoke: el login cabe en pantalla y permite 
+iniciar sesión táctil (1.1s)
+  ok 3 [mobile-android] › tests\e2e\mobile.spec.js:34:3 › Móvil › MOB-03: el catálogo se ve sin desborde y la búsqueda 
+funciona (1.3s)
+  ok 5 [mobile-iphone] › tests\e2e\mobile.spec.js:34:3 › Móvil › MOB-03: el catálogo se ve sin desborde y la búsqueda 
+funciona (1.3s)
+  ok 7 [mobile-android] › tests\e2e\mobile.spec.js:44:3 › Móvil › MOB-04: agregar al carrito desde el detalle del 
+producto en móvil (1.2s)
+  ok 4 [mobile-iphone] › tests\e2e\mobile.spec.js:44:3 › Móvil › MOB-04: agregar al carrito desde el detalle del 
+producto en móvil (1.4s)
+
+  8 passed (7.4s)
+
+

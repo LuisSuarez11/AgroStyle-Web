@@ -21,7 +21,12 @@ export default defineConfig({
     trace: 'retain-on-failure',
     screenshot: 'on',
   },
-  projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
+  projects: [
+    { name: 'chromium', use: { ...devices['Desktop Chrome'] }, testIgnore: /mobile\.spec\.js/ },
+    // Cobertura móvil: la web se prueba en dispositivos móviles emulados (viewport, táctil y user-agent).
+    { name: 'mobile-android', use: { ...devices['Pixel 7'] }, testMatch: /mobile\.spec\.js/ },
+    { name: 'mobile-iphone', use: { ...devices['iPhone 13'], defaultBrowserType: 'chromium' }, testMatch: /mobile\.spec\.js/ },
+  ],
   webServer: {
     // Build + preview: más estable que el servidor de desarrollo (sin recargas de dependencias).
     command: `npx vite build && npx vite preview --host 127.0.0.1 --port ${PORT} --strictPort`,
